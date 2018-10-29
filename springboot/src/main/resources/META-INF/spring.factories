@@ -1,0 +1,17 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.karlo.dive.bootstrap.context.HelloWorldApplicationContext,\
+com.karlo.dive.bootstrap.context.AfterHelloWorldApplicationContext
+
+
+
+org.springframework.context.ApplicationListener=\
+com.karlo.dive.bootstrap.listener.AfterHelloWorldApplicationListener,\
+com.karlo.dive.bootstrap.listener.HelloWorldApplicationListener,\
+com.karlo.dive.bootstrap.listener.BeforeConfigFileApplicationListener
+#
+#org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+#com.karlo.dive.bootstrap.bean.ConfigurationBean
+
+
+org.springframework.boot.SpringApplicationRunListener=\
+com.karlo.dive.bootstrap.run.MySpringApplicationRunListener
